@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+*{
+  background-color: white;
+  font-family: 'Manrope', sans-serif;
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="32" height="32"><circle cx="8" cy="8" r="7" fill="black"/></svg>') 8 8, auto;
+}
+
+body {
+  padding: 0 30px;
+  overflow: auto;
+  -webkit-font-smoothing: antialiased; 
+}
+
+.introContainer {
+  max-width: 600px; 
+  width: 100%;
+}
+
+h1{
+  font-size: 1.7em;
+  line-height: 1.7;
+  color:#000000;
+}
+
+h2{
+  font-size: 1.2em; 
+}
+
+h3{
+  font-size: 1.3em; 
+  line-height: 0.1; 
+}
+
+a {
+  text-decoration: none; 
+  color:  #01EA00; 
+}
+
+a:hover {
+  color:  #0000ff; 
+}
+
+::-webkit-scrollbar{
+  width: 42px;
+}
+
+::-webkit-scrollbar-track{
+  background-color:white;
+}
+
+::-webkit-scrollbar-thumb{
+  box-shadow:inset 0px 0px 2vh 0.3vh #d5e5ff;
+  background:linear-gradient(to right, yellow 3%, #00f000 70%);
+  border-radius:50vh;
+  display:inline-block;
+  /* padding:1.2vh 1.2vh; */
+  text-decoration:none;
+}
+
+::selection {
+  color: #F7F7F4;
+  background-color: #00f000;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 9px;
+    margin-top: 25px;
+  }
+}
+
+
+
+/* .hoverImagePreview {
+  position: absolute;
+  display: none;
+  width: 200px;
+  height: auto;
+  z-index: 100;
+}
+
+.hoverImagePreview img {
+  max-width: 100%;
+  max-height: 100%;
+} */
